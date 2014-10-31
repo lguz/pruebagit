@@ -33,3 +33,37 @@
 
 			height: 70px;
 		}
+
+		
+		.nombreform {
+			margin-left: 9px;
+		}
+
+		.direccionform {
+			margin-left: 9px;
+		}
+
+		.celularform {
+			margin-left: 19px;
+		}
+
+		.localform {
+			margin-left: 28px;
+		}
+
+		.fbform {
+			margin-left: 28px;
+		}
+
+		.twform {
+			margin-left: 37px;
+		}
+
+		.linkedinform {
+			margin-left: 47px;
+		}
+
+		button {
+			margin-left: 57px;
+			
+		}

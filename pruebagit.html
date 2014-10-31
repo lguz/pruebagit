@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Registro de Datos</title>
+	<title>Registro de Personas Naturales</title>
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,91 +24,174 @@
 
 <div class="container">   
 
+	<form class="form-horizontal" role="form" style="background-color: #eeeeee">
+
         <div class="jumbotron centrado">
-	        <h3 style="text-align: center">Registro de Peronas Naturales</h3>
+	        <h3 style="text-align: center">Registro de Personas Naturales</h3>
 	    </div>
 
 
-	    <form class="form-horizontal" role="form">
-			  <div class="form-group">
-			    <label for="inputEmail3" class="col-sm-2 control-label" aling="left" ><b>Nombre</b></label>
-			    <div class="col-sm-10">
-			      <input type="email" class="form-control ancho" id="inputEmail3" placeholder="Nombre">
+	    
+			 <div class="row"> 
+			  	<div class="form-group">
+			    	<label for="inputEmail3" class="col-sm-2 control-label" aling="left" ><b>Nombre</b></label>
+			    <div class="col-sm-9">
+			    	<div class="nombreform">
+			      		<input type="email" class="form-control ancho" id="inputEmail3" placeholder="Nombre">
+			      </div>
 			    </div>
-			   </div>
+			 </div>
 			   
-			   <label for="inputEmail3" class="col-sm-2 control-label" aling="left"><b>Apellido</b></label>
-			    <div class="col-sm-10">
-			      <input type="email" class="form-control ancho" id="inputEmail3" placeholder="Apellido">
-			      <br>
+			  		<label for="inputEmail3" class="col-sm-2 control-label" aling="left"><b>Apellido</b></label>
+			    <div class="col-sm-9">
+			    	      <input type="email" class="form-control ancho" id="inputEmail3" placeholder="Apellido">
+
+			  	<br>
+			    
+			    <br>
+
+			    <div class="checkbox">
+			      	<div><b>Género</b></div>
+			      		<br>
+			        		<label>
+			          			<input type="checkbox" value="">
+			         				 Hombre
+			        		</label>
+			        		<label>
+			          			<input type="checkbox" value="">
+			         				 Mujer
+			        		</label>
 			    </div>
 
+			     <br>
 
+			     			
+				<div class="checkbox">
+			    	  <div><b>Estado Civil</b></div>
+			      		<br>
+			        		<label>
+			          			<input type="checkbox" value="">
+			          				Soltero
+			       			</label>
+			        		<label>
+			          			<input type="checkbox" value="">
+			          				Casado
+			        		</label>
+			        		<label>
+			          			<input type="checkbox" value="">
+			          				Divorciado
+			        		</label>
+			        		<label>
+			          			<input type="checkbox" value="">
+			          				Viudo/a
+			        		</label>
+			    </div>
+			    
+			    <br>
+
+			    <br>
+
+			    </div>	
+				
+				
 
 			    <div class="form-group">
-			    <label for="inputPassword3" class="col-sm-2 control-label"><b>Cédula de Identidad</b></label>
-			    <div class="col-sm-10">
-			      <input type="password" class="form-control ancho1" id="inputPassword3" placeholder="cedula">
-			    </div>
+			    	<label for="inputPassword3" class="col-sm-2 control-label"><b>Cédula de Identidad</b></label>
+			    		<div class="col-sm-10">
+			      			<input type="password" class="form-control ancho1" id="inputPassword3" placeholder="Cédula">
+			    		</div>
 			  	</div>
 
 
 
 			    <div class="form-group">
-			    <label for="inputEmail3" class="col-sm-2 control-label"><b>Correo electrónico</b></label>
-			    <div class="col-sm-10">
-			      <input type="email" class="form-control ancho" id="inputEmail3" placeholder="Email">
-			      <br>
+			    	<label for="inputEmail3" class="col-sm-2 control-label"><b>Correo electrónico</b></label>
+			    		<div class="col-sm-10">
+			      			<input type="email" class="form-control ancho" id="inputEmail3" placeholder="Correo electrónico">
+			    
+			    <br>
+			    
 			    </div>
 
 			    <div class="form-group">
-			    <label for="inputEmail3" class="col-sm-2 control-label"><b>Dirección</b></label>
-			    <div class="col-sm-10">
-			      <input type="email" class="form-control ancho alto" id="inputEmail3" placeholder="Dirección">
-			      <br>
+			    	<label for="inputEmail3" class="col-sm-2 control-label"><b>Dirección</b></label>
+			    		<div class="col-sm-10">
+			    			<div class="direccionform">	
+			     			 <input type="email" class="form-control ancho alto" id="inputEmail3" placeholder="Dirección">
+			     		</div>
+			    
+			    <br>
+
 			    </div>
 
 
 
 			    <div class="form-group">
-			    <label for="inputEmail3" class="col-sm-2 control-label"><b>Teléfono Celular</b></label>
-			    <div class="col-sm-10">
-			      <input type="email" class="form-control ancho1" id="inputEmail3" placeholder="Telefono celular">
-			      <br>
+			    	<label for="inputEmail3" class="col-sm-2 control-label"><b>Teléfono Celular</b></label>
+			    		<div class="col-sm-10">
+			    			<div class="celularform">
+			      				<input type="email" class="form-control ancho1" id="inputEmail3" placeholder="Teléfono celular">
+			      			</div>
+			    
+			    <br>
+
 			    </div>
+			    
 			    <div class="form-group">
-			    <label for="inputEmail3" class="col-sm-2 control-label"><b>Teléfono local</b></label>
-				    <div class="col-sm-10">
-				      <input type="email" class="form-control ancho1" id="inputEmail3" placeholder="Telefono Local">
-				      <br>
-				    </div>
+			    	<label for="inputEmail3" class="col-sm-2 control-label"><b>Teléfono local</b></label>
+				    	<div class="col-sm-10">
+				    		<div class="localform">
+				      			<input type="email" class="form-control ancho1" id="inputEmail3" placeholder="Teléfono Local">
+				      		</div>
+						</div>
 			  	</div>
 
+			  	<br>	  	
 
-			  	 <div class="form-group">
-			    <div class="col-sm-offset-2 col-sm-10">
-			      <button type="button" class="btn btn-default">Enviar datos</button>
+			    <div class="form-group">
+			    	<label for="inputEmail3" class="col-sm-2 control-label"><b>Facebook</b></label>
+			    		<div class="col-sm-10">
+			    			<div class="fbform">
+			      				<input type="email" class="form-control ancho" id="inputEmail3" placeholder="Inserta el vínculo de tu perfil">
+			      			</div>
+			    <br>
+
 			    </div>
-			  </div>
 
+			    <div class="form-group">
+			   		<label for="inputEmail3" class="col-sm-2 control-label"><b>Twitter</b></label>
+			    		<div class="col-sm-10">
+			   				<div class="twform">
+			      				<input type="email" class="form-control ancho" id="inputEmail3" placeholder="Inserta tu nombre de usuario">
+			      			</div>
+			    <br>
 
+			    </div>
 
+			    <div class="form-group">
+			    	<label for="inputEmail3" class="col-sm-2 control-label"><b>LinkedIn</b></label>
+			    		<div class="col-sm-10">
+			    			<div class="linkedinform">
+			      				<input type="email" class="form-control ancho" id="inputEmail3" placeholder="Inserta el vínculo de tu perfil">
+			      			</div>
+			    <br>
 
+			    </div>
 
+			    <div class="form-group">
+			    	<div class="col-sm-offset-2 col-sm-10">
+			        	<button type="button enviar" class="btn btn-primary">Enviar datos</button>
+			      	</div>
 
+			  	</div>
+	</div>
 
-
-
-
-
-
-
-		</form>
+	</form>
   	
 
 
   		<script src="js/jquery.min.js"></script>
   		<script src="js/bootstrap.min.js"></script>
-  	</div>
+  	
   	</body>
 	</html>
